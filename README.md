@@ -8,6 +8,8 @@ docker build -f docker/Dockerfile .
 
 ## Resumo da configuração
 
+Exemplo para proxy para um ALB da AWS: http://a1f1d5aa29c0744f68c6e0d1d2c4182f-1293383380.us-east-1.elb.amazonaws.com:80
+
 ```bash
 proxy_connect_timeout 10;
 proxy_read_timeout 180;
